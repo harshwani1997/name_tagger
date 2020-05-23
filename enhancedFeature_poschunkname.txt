@@ -1,0 +1,47 @@
+EU	POS=NNP	name=I-ORG	chunk=I-NP	prevToken=null
+rejects	POS=VBZ	name=O	chunk=I-VP	prevToken=EU
+German	POS=JJ	name=I-MISC	chunk=I-NP	prevToken=rejects
+call	POS=NN	name=O	chunk=I-NP	prevToken=German
+to	POS=TO 	name=O	chunk=I-VP	prevToken=call
+boycott	POS=VB	name=O	chunk=I-VP	prevToken=to
+British	POS=JJ	name=I-MISC	chunk=I-NP	prevToken=boycott
+lamb	POS=NN	name=O	chunk=I-NP	prevToken=British
+.	POS=.	name=O	chunk=O	prevToken=lamb
+
+Peter	POS=NNP	name=I-PER	chunk=I-NP	prevToken=null
+Blackburn	POS=NNP	name=I-PER	chunk=I-NP	prevToken=Peter
+
+BRUSSELS	POS=NNP	name=I-LOC	chunk=I-NP	prevToken=null
+1996-08-22	POS=CD	name=O	chunk=I-NP	prevToken=BRUSSELS
+
+The	POS=DT	name=O	chunk=I-NP	prevToken=null
+European	POS=NNP	name=I-ORG	chunk=I-NP	prevToken=The
+Commission	POS=NNP	name=I-ORG	chunk=I-NP	prevToken=European
+said	POS=VBD	name=O	chunk=I-VP	prevToken=Commission
+on	POS=IN	name=O	chunk=I-PP	prevToken=said
+Thursday	POS=NNP	name=O	chunk=I-NP	prevToken=on
+it	POS=PRP	name=O	chunk=B-NP	prevToken=Thursday
+disagreed	POS=VBD	name=O	chunk=I-VP	prevToken=it
+with	POS=IN	name=O	chunk=I-PP	prevToken=disagreed
+German	POS=JJ	name=I-MISC	chunk=I-NP	prevToken=with
+advice	POS=NN	name=O	chunk=I-NP	prevToken=German
+to	POS=TO	name=O	chunk=I-PP	prevToken=advice
+consumers	POS=NNS	name=O	chunk=I-NP	prevToken=to
+to	POS=TO	name=O	chunk=I-VP	prevToken=consumers
+shun	POS=VB	name=O	chunk=I-VP	prevToken=to
+British	POS=JJ	name=I-MISC	chunk=I-NP	prevToken=shun
+lamb	POS=NN	name=O	chunk=I-NP	prevToken=British
+until	POS=IN	name=O	chunk=I-SBAR	prevToken=lamb
+scientists	POS=NNS	name=O	chunk=I-NP	prevToken=until
+determine	POS=VBP	name=O	chunk=I-VP	prevToken=scientists
+whether	POS=IN	name=O	chunk=I-SBAR	prevToken=determine
+mad	POS=JJ	name=O	chunk=I-NP	prevToken=whether
+cow	POS=NN	name=O	chunk=I-NP	prevToken=mad
+disease	POS=NN	name=O	chunk=I-NP	prevToken=cow
+can	POS=MD	name=O	chunk=I-VP	prevToken=disease
+be	POS=VB	name=O	chunk=I-VP	prevToken=can
+transmitted	POS=VBN	name=O	chunk=I-VP	prevToken=be
+to	POS=TO	name=O	chunk=I-PP	prevToken=transmitted
+sheep	POS=NN	name=O	chunk=I-NP	prevToken=to
+.	POS=.	name=O	chunk=O	prevToken=sheep
+
